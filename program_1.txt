@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter two number: ");
+        double num1 = scanner.nextDouble();
+        double num2 = scanner.nextDouble();
+
+
+        double result = (num1 + num2) * 2;
+        System.out.println("Final Answer:" + result);
+
+    }
+}
